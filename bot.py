@@ -12,4 +12,4 @@ async def on_ready():
 async def on_member_join(member):
     role = await disnake.utils.get(guild_id=member.guild.id, role_id=)
 
-bot.run('MTI2NTc1Nzg1Njg1OTE2MDU3Ng.G8v_fq.pQAoYV_bTDgiCB_sqUpQG77e_RFDdT34Y8YdH4')
+bot.run('your_bot_token')
